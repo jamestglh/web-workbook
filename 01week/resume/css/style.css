@@ -3,19 +3,20 @@ body {
    border: 8px solid rgba(1, 1, 1, .2)
 }
 
-h1 {
+bgtxt {
+  text-align: center;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: ;
+	font-size: 250%;
 	font-style: bold;
 	font-variant: bold;
 	font-weight: 600;
 	line-height:
 }
 
-h6 {
+smtxt {
   style="margin-left: -100px;";
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: ;
+	font-size: 90%;
 	font-style: bold;
 	font-variant: bold;
 	font-weight: 400;
