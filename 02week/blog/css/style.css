@@ -1,0 +1,100 @@
+body {
+  background: linear-gradient(to bottom right, rgb(255, 250, 214), rgb(130, 180, 214)) no-repeat ;
+  /* background: url("../images/henry9.jpg") no-repeat center center fixed; */
+  text-align: center;
+  font-family: 'Archivo Black';
+  text-transform: uppercase;
+  color: rgb(55, 57, 61);
+}
+
+.header {
+   text-decoration: none;
+   background-color: rgb(247, 245, 232);
+   padding: 20px;
+   margin: 30px;
+   height: 150px;
+   border-radius: 3px;
+   box-shadow: 5px 5px 8px #888888;
+   /* border-radius: 5px;
+   border-style: solid;
+   border-width: 3px;
+   border-color: darkgray; */
+}
+
+blogtitle {
+  font-size: 400%;
+
+}
+
+.navbar {
+  background-color: rgb(234, 222, 133);
+  box-shadow: 5px 5px 8px #888888;
+  border-radius: 3px;
+  text-decoration: none;
+  padding: 15px;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.bpost {
+  font-family: 'Lato';
+  text-align: left;
+  box-shadow: 3px 3px 5px #888888;
+  border-radius: 3px;
+  background-color: white;
+  padding: 20px;
+  margin-left: 45px;
+  margin-top: 15px;
+  width: 60%;
+  float:left;
+  text-transform: none !important;
+}
+
+.bpost:nth-child(even) {
+  background-color:rgb(247, 245, 232);
+}
+
+.btitle {
+  font-family: 'Archivo Black' !important;
+  font-size: 24pt;
+  text-transform: uppercase;
+}
+
+.rightcolumn {
+  float: right;
+  box-shadow: 3px 3px 5px #888888;
+  width: 29%;
+  padding: 20px;
+  background-color: white;
+  border-radius: 3px;
+  margin-right: 45px;
+  margin-top: 15px;
+  text-align: left;
+}
+
+p {
+  font-family: 'Lato';
+  text-transform: none !important;
+}
+
+p:hover:first-letter {
+    /* color: red; */
+    font-weight: bolder;
+}
+
+#iconshortcuts{
+  font-size: 35px;
+  color: rgb(55, 57, 61);
+}
+
+footer {
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
