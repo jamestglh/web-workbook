@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   background-size:  cover;
   font-size: 14px;
+  font-family: 'Lato';
   color: white;
 }
 
@@ -73,7 +74,8 @@ header {
 }
 
 .togglebar a {
-  display: block;
+  display: inline-block;
+  float: left;
 }
 
 .btn {
