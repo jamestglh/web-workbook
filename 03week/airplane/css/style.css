@@ -1,0 +1,198 @@
+body {
+  background-image:url(../img/airline.jpg);
+  background-position: center center;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  cover;
+  font-size: 14px;
+  font-family: 'Lato';
+  color: white;
+}
+
+
+header {
+  background-color: rgb(25,58,85);
+  position: fixed;
+  display: flex;
+  width: 120%;
+  margin: -10px;
+  height: 90px;
+  border-bottom: 1px solid white;
+}
+
+.logo {
+  float:left;
+  width: 50%;
+  margin-left: 50px;
+}
+
+.navbar {
+  width: 50%;
+  color: white;
+  float: left;
+}
+
+.navbar img {
+  display: inline-block;
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+
+.navbar p {
+  display: inline-block;
+
+}
+.navbar p:hover {
+  color: teal;
+}
+
+.navbar a {
+  color: white;
+}
+
+.toolbox {
+  position: absolute;
+  width: 400px;
+  height: 340px;
+  background-color: rgb(25,58,85);
+  left: 100px;
+  top: 200px;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.togglebar {
+  display: inline-block;
+  float: left;
+  position: relative;
+  left: -3px;
+  width: 406px;
+  height: 50px;
+  background-color: teal;
+  border-radius: 3px;
+}
+
+.togglebar a {
+  display: inline-block;
+  float: left;
+}
+
+.btn {
+  display: inline-block;
+  padding left right: 20px;
+}
+
+.btn img {
+  height: 35px;
+  padding-top: 10px;
+  padding-bottom: 2px;
+  margin-left: 49px;
+  margin-right: 49px;
+}
+
+.btn:hover {
+  background-color: rgb(13, 103, 189);
+  border-radius: 3px;
+}
+
+input {
+  position: relative;
+  top: 15px;
+  font-family: 'Lato';
+  color: white;
+  width: 140px;
+  height: 22px;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 4px;
+  border-color: white;
+  border-style: solid;
+  background-color: rgb(25,58,85);
+}
+
+.dropandradio {
+  float: left;
+  position: relative;
+  top: 25px;
+  left: 27px;
+  height: 45px;
+  width: 49%;
+}
+
+.dropandradio p {
+  display: inline-block;
+  float: left;
+  width: 100%
+  margin-top: 15px;
+}
+
+select {
+  background-color: rgb(25,58,85);
+  font-family: 'Lato';
+  color: white;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 70px;
+  border-radius: 4px;
+  border-color: white;
+  border-style: solid;
+  border-width: 2px;
+  margin-left: 21px;
+}
+
+.drop {
+  display: inline-block;
+  float: left;
+  width: 50%
+}
+
+.radio {
+  position: relative;
+  left: 175px;
+  top: 3px;
+}
+
+input[type='radio'] {
+  transform: scale(0.6);
+  width: 20px;
+  top: -48px;
+  right: 12px;
+}
+
+label {
+  display: inline-block;
+  position: relative;
+  text-align: left;
+  top: -54px;
+  right: 24px;
+}
+
+form {
+  height: 35px;
+}
+
+.searchbtn {
+  text-decoration: none;
+  position: relative;
+  top: 45px;
+  clear: both;
+  text-align: center;
+  background-color: rgb(13, 103, 189);
+  border-radius: 5px;
+  width: 370px;
+  height: 50px;
+  margin-left: 15px;
+  color: white;
+  padding-top: 5px;
+}
+
+.searchbtn:hover {
+  background-color: teal;
+}
+
+searchbtn p {
+  text-decoration: none;
+}
+a:link {
+    text-decoration: none;
