@@ -21,15 +21,22 @@ header {
 }
 
 .logo {
+  display: block;
+  z-index : 1;
   float:left;
   width: 50%;
   margin-left: 50px;
+  background-color: rgb(25,58,85);
 }
 
 .navbar {
+  position: fixed 255 255;
+  display: block;
+  float: left;
   width: 50%;
   color: white;
-  float: left;
+  white-space: nowrap;
+  background-color: rgb(25,58,85);
 }
 
 .navbar img {
@@ -37,12 +44,13 @@ header {
   padding-top: 40px;
   padding-left: 20px;
   padding-right: 5px;
+
 }
 
 .navbar p {
   display: inline-block;
-
 }
+
 .navbar p:hover {
   color: teal;
 }
@@ -99,7 +107,6 @@ header {
 input {
   position: relative;
   top: 15px;
-  font-family: 'Lato';
   color: white;
   width: 140px;
   height: 22px;
