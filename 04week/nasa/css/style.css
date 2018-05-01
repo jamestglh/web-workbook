@@ -76,7 +76,7 @@ textarea {
     resize: none;
 }
 
-.button {
+#sendbutton {
   color: white;
   background-color: rgb(77,77,77);
   height: 35px;
@@ -84,7 +84,7 @@ textarea {
   display: flex;
   align-items: center;
   justify-content: center;
-
+  text-decoration: none;
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
