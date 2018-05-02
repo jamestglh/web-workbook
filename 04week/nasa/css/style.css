@@ -25,10 +25,10 @@ body > * {
 .headerimg p {
   color: white;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 72px;
+  font-size: 88px;
   font-style: normal;
   font-variant: normal;
-  font-weight: 800;
+  font-weight: 700;
   line-height: 26.4px;
 }
 
@@ -56,7 +56,7 @@ body > * {
 }
 
 .title {
-  font-weight: 800;
+  font-weight: 1000;
 
 }
 
